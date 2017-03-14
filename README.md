@@ -9,4 +9,4 @@ To run:
 `yarn start`
 
 Result:
-![test-table](https://raw.githubusercontent.com/DenniLa2/test-table/master/gif/test-table.gif)
+![test-table](https://github.com/DenniLa2/ionic-datepicker/blob/master/gif/test-table.gif)
