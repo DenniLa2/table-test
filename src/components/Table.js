@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
 import { connect } from 'react-redux';
 import ReactTable from 'react-table';
 import 'react-table/react-table.css'
@@ -6,7 +6,7 @@ import 'react-table/react-table.css'
 import { START } from '../constants'
 import { fetchTable } from '../AC/table'
 
-class Table extends Component {
+class Table extends PureComponent {
 
   componentDidMount() {
     this.props.fetchTable()
