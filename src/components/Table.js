@@ -66,8 +66,8 @@ class Table extends PureComponent {
 
 export default connect(
   state => ({
-    table: state.table.table,
-    isFetchTable: state.table.fetchTable
+    table: state.table.get('table'),
+    isFetchTable: state.table.get('fetchTable')
   }), {
     fetchTable
   }
